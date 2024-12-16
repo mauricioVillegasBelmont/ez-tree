@@ -33,6 +33,7 @@
     "build:lib": "vite build --config vite.lib.config.js",
     "build:watch": "vite build --config vite.lib.config.js --watch",
     "app": "npm run build:lib && vite --config vite.app.config.js",
+    "app:watch": "npm run build:lib && vite --config vite.app.config.js --watch",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -40,7 +41,7 @@
     "prettier": "3.3.3",
     "three": "^0.167.x",
     "vite": "^5.0.0",
-    "vite-plugin-dts": "^3.9.1",
+    "vite-plugin-dts": "^4.3.0",
     "vite-plugin-static-copy": "^1.0.5"
   },
   "peerDependencies": {
